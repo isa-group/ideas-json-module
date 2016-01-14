@@ -1,0 +1,22 @@
+{
+    "id": "ideas-json-language",
+    "extension": "json",
+    "name": "JSON",
+    "formats": [
+        {
+            "format": "json",
+            "editorModeId": "ace/mode/json",
+            "_editorModeURI": "mode-json.js",
+            "checkLanguage": "false"
+        },
+        {
+            "format": "yaml",
+            "editorModeId": "ace/mode/yaml",
+            "_editorModeURI": "mode-yaml.js",
+            "checkLanguage": "false"
+        }
+    ],
+    "templateProjects": null,
+    "templateFiles": null,
+    "inspectorLoader": "function(loader, format) {}"
+}
