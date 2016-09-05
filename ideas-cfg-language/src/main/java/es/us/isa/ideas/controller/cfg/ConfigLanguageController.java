@@ -1,11 +1,11 @@
-package es.us.isa.ideas.controller.json;
+package es.us.isa.ideas.controller.cfg;
 
 import es.us.isa.ideas.module.common.AppResponse;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import es.us.isa.ideas.module.controller.BaseLanguageController;
-import es.us.isa.ideas.util.json.Util;
+import es.us.isa.ideas.util.Util;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -14,14 +14,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * Applied Software Engineering Research Group (ISA Group) University of
  * Sevilla, Spain
  *
- * @author Manuel Arenillas <marenillas@us.es>
+ * @author Juanlu de la Fuente <jdelafuente@us.es>
  * @version 1.0
  */
 
 
 @Controller
 @RequestMapping("/language")
-public class JsonLanguageController extends BaseLanguageController {
+public class ConfigLanguageController extends BaseLanguageController {
 
     @RequestMapping(value = "/operation/{id}/execute", method = RequestMethod.POST)
     @ResponseBody

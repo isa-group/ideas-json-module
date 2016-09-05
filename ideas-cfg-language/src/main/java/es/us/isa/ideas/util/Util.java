@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package es.us.isa.ideas.util.json;
+package es.us.isa.ideas.util;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -15,7 +15,7 @@ import org.yaml.snakeyaml.Yaml;
  * Applied Software Engineering Research Group (ISA Group) University of
  * Sevilla, Spain
  *
- * @author Manuel Arenillas <marenillas@us.es>
+ * @author Juanlu de la Fuente <jdelafuente@us.es>
  * @version 1.0
  */
 
